@@ -1,0 +1,60 @@
+.header {
+    background-color: #ECD891;
+}
+.preHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.preHeaderText {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.facebookLogo {
+    width: 3rem;
+    height: 2.5rem;
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.newpyLogo {
+    height: 10rem;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navLinkGroup {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 4rem;
+    color: #D97179;
+    font-family: 'Fredoka One', cursive;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+}
+
+.active {
+    background-color: #7578BF;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+

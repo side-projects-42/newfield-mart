@@ -1,0 +1,104 @@
+.menu-main-heading {
+    font-size: 5rem;
+    font-family: 'Fredoka One', cursive;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #7578BF;
+    color: white;
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+.menu-link-section {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-link {
+    width: 70%;
+    margin: 1rem auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-link-section h2 {
+    color: #D97179;
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    background-color: #ECD891;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 95%;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+.menu-link-section img {
+    width: 80%;
+    height: 30rem;
+}
+
+.menu-link-section a {
+    display: block;
+    text-decoration: none;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    margin-top: .25rem;
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    background-color: #7578BF;
+    padding: .5rem;
+    width: 50%;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+#newfield-menu {
+    text-align: center;
+}
+
+#newfield-menu img {
+    width: 70%;
+}
+
+#krispy-menu h2 {
+    color: #D97179;
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    background-color: #ECD891;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 95%;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+.krispy-header {
+    width: 70%;
+    margin: 1rem auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: .5rem;
+}
+
+#krispy-menu img {
+    width: 70%;
+}
+
+#krispy-menu {
+    text-align: center;
+}
+
+.main-subtext {
+    font-size: 2.5rem;
+    font-family: 'Fredoka One', cursive;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ECD891;
+    color: #D97179;
+    text-align: center;
+    letter-spacing: .5rem;
+}
