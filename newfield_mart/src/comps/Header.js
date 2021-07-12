@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className='preHeader'>
-        <p className='preHeaderText'>Phone Number: (856) 839-0203 --- Address: 1381 Harding Hwy Newfield, NJ, 08344-5323 </p>
+        <p className='preHeaderText'>Phone Number: (856) 839-0203 --- <a className='preHeaderText' href='https://www.google.com/maps/dir//newfield+food+mart,+1381+Harding+Hwy,+Newfield,+NJ+08344/@39.5535484,-74.999819,17z/data=!3m1!5s0x89c72ceca532cc07:0x8f8e0ace950ea61f!4m8!4m7!1m0!1m5!1m1!1s0x89c72db785ced0cd:0x4a27f2019e80e46d!2m2!1d-74.9976303!2d39.5535443'>Address: 1381 Harding Hwy Newfield, NJ, 08344-5323</a> </p>
         <a href='https://www.facebook.com/Newfield-Food-Mart-102478735076598/'>
           <img alt='facebook logo' src={facebookLogo} className='facebookLogo'></img>
         </a>

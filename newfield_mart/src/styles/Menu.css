@@ -102,3 +102,38 @@
     text-align: center;
     letter-spacing: .5rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .alice-carousel ul li img {
+      width: 100%;
+      text-align: center;
+    }
+
+    .menu-main-heading {
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    .main-subtext {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    #newfield-menu img {
+        width: 100%;
+    }
+
+    .menu-link {
+        width: 100%;
+    }
+
+    .krispy-header {
+        width: 100%;
+    }
+
+    #krispy-menu img {
+        width: 100%;
+    }
+
+  }
+

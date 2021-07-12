@@ -54,6 +54,32 @@ main {
 
 .gallery-image {
     width: 45%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     border: .5rem solid #ecd891;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .about-main-heading {
+    width: 100%;
+    font-size: 4rem;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .about-content h2 {
+    width: 90%;
+  }
+
+  .gallery-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery-image {
+    width: 95%;
+  }
+
 }

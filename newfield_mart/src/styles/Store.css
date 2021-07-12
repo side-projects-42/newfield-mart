@@ -297,3 +297,41 @@
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
+
+    @media screen and (max-width: 1000px) {
+      .alice-carousel ul li img {
+        width: 100%;
+        text-align: center;
+      }
+
+      .store-main-heading {
+        width: 100%;
+        font-size: 4rem;
+      }
+
+      .feature {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+
+      .feature-image {
+        width: 100%;
+      }
+
+      .feature-info {
+        width: 100%;
+      }
+
+      .store-sections {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .store-section-category {
+        width: 100%;
+        
+      }
+
+    }

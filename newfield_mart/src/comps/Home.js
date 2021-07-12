@@ -25,12 +25,6 @@ export default function Home() {
     return <img src={url} alt="" key={idx} className="carImg"></img>;
   });
 
-  const styles = {
-    'width': '45%',
-    'height': '35rem',
-    'object-fit': 'cover'
-  };
-
   return (
     <main>
       <h1 className='home-main-heading'>Welcome To Newfield Food Mart</h1>

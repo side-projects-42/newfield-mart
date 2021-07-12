@@ -51,6 +51,7 @@ export default function About() {
             }
         </div>
       </section>
+      <h2 className='hiring'>Now Hiring! Newfield Foodmart is seeking an employee to fill a cook position.</h2>
     </main>
   );
 }
